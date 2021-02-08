@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/glutenBackground"
+    tools:context=".GetRestaurantActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/getRestaurantBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="start"
+            android:text="@string/back"
+            android:textColor="@color/glutenBackground"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/getRestaurantPriceLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/glutenPrimaryDark"
+            android:fontFamily="sans-serif"/>
+
+        <Button
+            android:id="@+id/getRestaurantPhotosButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="312dp"
+            android:background="@drawable/btn_rounded"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif"
+            android:radius="80dp"
+            android:text="@string/photos"
+            android:textColor="@color/glutenBackground"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/getRestaurantListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:listSelector="@android:color/transparent"/>
+
+    <ListView
+        android:id="@+id/getRestaurantPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <ListView
+        android:id="@+id/getRestaurantWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <ListView
+        android:id="@+id/getRestaurantDirections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <ListView
+        android:id="@+id/getRestaurantInfo"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/icons8Link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="end"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/hyperlinkBlue"
+        android:textAlignment="center">
+    </TextView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/glutenPrimary"
+            android:paddingTop="16dp"
+            android:paddingBottom="19dp"
+            android:layout_alignParentBottom="true"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/showRestaurantFooterName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:paddingTop="1dp"
+                android:text="@string/author_name"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/showRestaurantFooterUni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:paddingTop="1dp"
+                android:text="@string/author_university"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/showRestaurantFooterID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="1dp"
+                android:paddingEnd="10dp"
+                android:text="@string/author_id"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

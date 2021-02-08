@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="greenTint">#D81B60</color>
+
+    <color name="glutenPrimary">#DEC7A5</color>
+    <color name="glutenPrimaryDark">#997C5E</color>
+    <color name="glutenAccent">#EBE4D1</color>
+    <color name="glutenBackground">#E7F0ED</color>
+    <color name="hyperlinkBlue">#2B4DCB</color>
+</resources>

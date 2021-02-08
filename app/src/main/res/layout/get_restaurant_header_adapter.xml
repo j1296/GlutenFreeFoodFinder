@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/getRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/glutenPrimaryDark"
+        android:fontFamily="sans-serif"/>
+
+    <View
+        android:id="@+id/thinDivider1"
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/glutenPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/getRestaurantAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/getRestaurantOpenNow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/getRestaurantOpeningTimes"
+                android:layout_width="240dp"
+                android:paddingTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="end"
+                android:textSize="16sp"
+                android:textColor="@color/glutenPrimaryDark"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    <View
+        android:id="@+id/thinDivider2"
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/glutenPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/getRestaurantRating"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/glutenPrimaryDark"
+                android:fontFamily="sans-serif"/>
+
+            <RatingBar
+                android:id="@+id/getRestaurantRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:progressTint="@color/glutenPrimaryDark"
+                android:secondaryProgressTint="#00000000"
+                android:numStars="5"
+                android:stepSize="0.1"
+                android:isIndicator="true"/>
+        </LinearLayout>
+
+    <View
+        android:id="@+id/thinDivider3"
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="3dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/glutenPrimaryDark"/>
+
+</LinearLayout>

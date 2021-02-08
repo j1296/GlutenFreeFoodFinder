@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Gluten Free Food Finder</string>
+    <string name="restaurant_locator">Gluten Free Food Finder</string>
+    <string name="background_url">https://imgc.allpostersimages.com/img/print/u-g-Q103FIT0.jpg?w=550&amp;h=550&amp;p=0</string>
+
+    <string name="api_key">AIzaSyBTK0piScwlU8W_zbsgVCNe6juRwkdfFCg</string>
+    <string name="places_api_base">https://maps.googleapis.com/maps/api/place</string>
+    <string name="maps_api_base">http://maps.google.com/maps/dir/?api=1</string>
+
+    <string name="open_now">Open Now</string>
+    <string name="closed">Closed</string>
+    <string name="back">Back</string>
+    <string name="photos">Photo\'s</string>
+    <string name="filter">Filter</string>
+    <string name="more_information">More Information</string>
+    <string name="no_opening_information">No Opening Times Available</string>
+    <string name="no_gluten_information">No Gluten Free Information Available</string>
+
+    <string name="main_activity_title">Newcastle Gluten Free Food Finder</string>
+    <string name="main_activity_button">Show Restaurants!</string>
+
+    <string name="author_name">James Kelsey</string>
+    <string name="author_university">Newcastle University</string>
+    <string name="author_id">160431652</string>
+
+    <string name="show_restaurants_activity_title">Displaying Gluten Free Restaurants in Newcastle</string>
+
+    <string name="get_restaurant_info_text">GF Features, Full Opening Hours…</string>
+    <string name="get_restaurant_phone_header">Phone</string>
+    <string name="get_restaurant_website_header">Website</string>
+
+    <string name="restaurant_info_disclaimer">*Information may not be 100% accurate</string>
+    <string name="restaurant_info_features_text">GF Features*</string>
+    <string name="restaurant_info_times_text">Full Opening Times</string>
+    <string name="gf_menu">Gluten Free Menu</string>
+    <string name="gf_options">Gluten Free Options</string>
+
+    <string name="restaurant_photos_disclaimer">*Images may not show gluten free food</string>
+    <string name="restaurant_photos_first_image_description">First Image</string>
+    <string name="restaurant_photos_second_image_description">Second Image</string>
+    <string name="restaurant_photos_third_image_description">Third Image</string>
+    <string name="restaurant_photos_fourth_image_description">Fourth Image</string>
+    <string name="restaurant_photos_fifth_image_description">Fifth Image</string>
+
+    <string name="icons8_text">Icons by Icons8</string>
+    <string name="icons8_url">https://icons8.com</string>
+
+    <string name="malformed_excpetion_error">Error processing Places API URL</string>
+    <string name="io_exception_error">Error connecting to Places API</string>
+    <string name="json_exception_error">Error processing JSON results</string>
+    <string name="interrupted_exception_error">Error on Thread wait</string>
+
+</resources>

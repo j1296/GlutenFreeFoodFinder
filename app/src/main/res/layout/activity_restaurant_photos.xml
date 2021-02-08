@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/glutenBackground"
+    tools:context=".RestaurantPhotosActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <Button
+            android:id="@+id/restaurantPhotosBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="end"
+            android:text="@string/back"
+            android:textColor="@color/glutenBackground"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/restaurantPhotosDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/restaurant_photos_disclaimer"
+            android:textSize="12sp"
+            android:textColor="@color/glutenPrimaryDark"
+            android:fontFamily="sans-serif"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="633dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:scrollbars="vertical"
+        android:scrollbarSize="6dp"
+        android:scrollbarStyle="outsideInset">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/restaurantFirstImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/restaurant_photos_first_image_description"/>
+
+            <ImageView
+                android:id="@+id/restaurantSecondImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/restaurant_photos_second_image_description"/>
+
+            <ImageView
+                android:id="@+id/restaurantThirdImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/restaurant_photos_third_image_description"/>
+
+            <ImageView
+                android:id="@+id/restaurantFourthImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/restaurant_photos_fourth_image_description"/>
+
+            <ImageView
+                android:id="@+id/restaurantFifthImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/restaurant_photos_fifth_image_description"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/glutenPrimary"
+        android:paddingTop="16dp"
+        android:paddingBottom="19dp">
+
+        <TextView
+            android:id="@+id/showRestaurantFooterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:paddingTop="1dp"
+            android:text="@string/author_name"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/showRestaurantFooterUni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="1dp"
+            android:text="@string/author_university"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/showRestaurantFooterID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingTop="1dp"
+            android:paddingEnd="10dp"
+            android:text="@string/author_id"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
